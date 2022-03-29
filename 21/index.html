@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: coral;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav{
+            background-color: rgb(44, 42, 42);
+            padding: 3px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font: bold;
+           margin-right: 10px;
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article{
+            background-color: rgb(134, 128, 128);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(53, 43, 43);
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="assuntos">
+
+        </section>
+
+        <section class="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque rerum et ducimus quibusdam nam ut eos reiciendis dignissimos est animi. Esse voluptate voluptatem qui at fugiat fugit, libero veniam incidunt.</p>
+
+                <aside>
+                    <p>Artigo escrito por Niko</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursomVídeo</p>
+    </footer>
+   
+</body>
+</html>

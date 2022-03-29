@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #024059, #026873, #04BF8A);
+}
+
+#principal{
+    text-align: center;
+    color:#1bd7ec;
+
+}
+
+.sub{
+    color: #04BF8A;
+}
