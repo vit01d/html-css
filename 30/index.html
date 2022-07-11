@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.cnome{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="sprof">
+            
+        </colgroup>
+
+        <caption>Cadatro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Marcos</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Advogado</td>
+        </tr>
+
+        <tr>
+            <td>Thiago</td>
+            <td>Masculino</td>
+            <td>32</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Nicole</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Enfermeira</td>
+        </tr>
+
+        <tr>
+            <td>William</td>
+            <td>Masculino</td>
+            <td>45</td>
+            <td>Cantor</td>
+        </tr>
+    </table>
+</body>
+</html>
